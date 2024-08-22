@@ -1,4 +1,4 @@
-/* Global Styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 
 * {
@@ -249,29 +249,29 @@ section {
     width: 100%;
 }
 
-/* Other Sections */
+
 section:not(.home) {
-    padding: 15rem 9%; /* Increased padding */
-    text-align: center; /* Center alignment */
+    padding: 15rem 9%; 
+    text-align: center; 
 }
 
 section:not(.home) h2 {
-    font-size: 5rem; /* Increased font size */
+    font-size: 5rem; 
     margin-bottom: 3rem;
     color: var(--text-color);
 }
 
 section:not(.home) h3 {
-    font-size: 3rem; /* Increased font size */
+    font-size: 3rem; 
     margin-bottom: 2rem;
 }
 
 section:not(.home) p {
-    font-size: 2rem; /* Increased font size */
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-/* Education Section */
+
 .education-cards {
     display: flex;
     justify-content: center;
@@ -281,7 +281,7 @@ section:not(.home) p {
 }
 
 .education-card {
-    background-color: var(--second-bg-color); /* Background color for the card */
+    background-color: var(--second-bg-color); 
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -292,12 +292,12 @@ section:not(.home) p {
 
 /* Skills Section */
 .skills-card {
-    background-color: var(--second-bg-color); /* Background color for the card */
+    background-color: var(--second-bg-color); 
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 80%; /* Adjust width */
-    margin: 0 auto; /* Center the card */
+    max-width: 80%; 
+    margin: 0 auto; 
     text-align: left;
     color: var(--text-color);
 }
@@ -358,14 +358,20 @@ section:not(.home) p {
     
 }
 
-/* Contact Section */
+.navbar a.active {
+    color: var(--main-color); 
+    font-weight: 700; 
+}
+
+
+
 .contact-card {
-    background-color: var(--second-bg-color); /* Background color for the card */
+    background-color: var(--second-bg-color); 
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 80%; /* Adjust width */
-    margin: 0 auto; /* Center the card */
+    max-width: 80%; 
+    margin: 0 auto; 
     text-align: center;
     color: var(--text-color);
 }
@@ -381,7 +387,6 @@ section:not(.home) p {
     margin-bottom: 2rem;
 }
 
-/* Pet Section */
 .pet-content {
     display: flex;
     align-items: center;
@@ -392,7 +397,7 @@ section:not(.home) p {
 .pet-text {
     flex: 1;
     text-align: left;
-    padding-right: 2rem; /* Add some spacing between text and image */
+    padding-right: 2rem;
 }
 
 .pet-text h2 {
